@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.page1{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-image: url("https://images.unsplash.com/photo-1532540494837-b14ad9c98529?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGxlYXJuJTIwYmxhY2slMjBhbmQlMjB3aGl0ZXxlbnwwfHwwfHx8MA%3D%3D");
+    background-position: center;
+    background-size: cover;
+    color: rgba(255, 255, 255, 0.799);
+    background-attachment: fixed;
+    /* background-color: #a55e5e6a; */
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.658);
+}
+.nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4%;
+    font-size: 0.7vw;
+   
+}
+.nav h1:hover{
+    color: rgb(189, 143, 230);
+    cursor: pointer;
+    text-decoration: underline black;
+    /* font-weight: 900; */
+}
+.page1 h2{
+    font-size: 13vw;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.page1 h3{
+    font-size: 5vw;
+    margin-left: 6%;
+}
+.page1 img{
+   height: 200px;
+   margin-left: 15%;
+   border-radius: 10px;
+}
+.page2{
+    
+    height: 100%;
+    width: 100%;
+    display: flex;
+    padding:   230px 15%;
+    color: white;
+    background:linear-gradient(rgba(0, 0, 0, 0.616),black,black);
+}
+.skills{
+    height: 100%;
+    width: 50%;
+}
+.page2 h1{
+    font-size: 5vw;
+    
+}
+.page2 p{
+    font-size: 1.5vw;
+}
+.education{
+    height: 100%;
+    width: 50%;
+}
+.page3{
+    min-height: 100%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.pic{
+    height: 100vh;
+    width: 100%;
+    /* background-color: red; */
+}
+.page3 h6{
+    font-size: 20px;
+    top: 33%;
+    gap: 20%;
+    display: flex;
+    color: white;
+    /* position: absolute; */
+}
+.in{
+    display: flex;
+    justify-content: center;
+    margin:  3% 13%;
+    gap: 10%;
+    
+    /* align-items: center; */
+    
+}
+
+.page3 img{
+    height: 300px;
+    width: 300px;
+    padding-top: 13%;
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px solid rgba(235, 233, 241, 0.778);
+    box-shadow: 6px 6px 10px rgba(191, 184, 184, 0.377),-2px -2px 10px rgba(191, 184, 184, 0.403)  ;
+}
+
+
+
+.page4 {
+    padding-top: 5%;
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+}
+.page4 i{
+    color:white;
+    font-size: 40px;
+    /* width: 30%; */
+    margin-left: 23%;
+    padding-right: 50px;
+}
+.page4 a{
+    text-decoration: none;
+}
+.page4 h1{
+    /* width: 60%; */
+    font-size:20px;
+    color: white;
+    margin-right: -18%;
+    margin-top: -10%;
+}
+.pro{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+.project{
+    margin-left: 10%;
+    margin-top: 6%;
+   
+}
+.proj2{
+    margin-left: 11%;
+    margin-top: 6%;
+    /* widt/h: 80%; */
+}
+.proj3,.proj4,.proj5,.proj6{
+    margin-left: 11%;
+    margin-top: 6%;
+    width: 80%;
+}
+.page4 i:hover{
+    color: purple;
+}
